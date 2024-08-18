@@ -3,11 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Accordion from './modules/Accordion';
+import MODULE_ROUTES from './routes';
+
+const router = createBrowserRouter([
+  {
+    path: MODULE_ROUTES.root,
+    element: <App />,
+  },
+  {
+    path: MODULE_ROUTES.accordion,
+    element: <Accordion />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
