@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-wrapper {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px
+}
+
+.app-wrapper button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.app-wrapper button:hover {
+    font-weight: 600;
+}
+
+.accordion {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
