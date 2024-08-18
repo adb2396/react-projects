@@ -1,2 +1,3 @@
 # react-projects
-Simple react practice projects 
+
+Simple react practice projects
