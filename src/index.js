@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Accordion from './modules/Accordion';
 import MODULE_ROUTES from './routes';
+import RandomColor from './modules/RandomColor/RadomColor';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.accordion,
     element: <Accordion />,
+  },
+  {
+    path: MODULE_ROUTES.randomColor,
+    element: <RandomColor />,
   },
 ]);
 

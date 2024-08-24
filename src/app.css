@@ -1,0 +1,17 @@
+.app {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.header {
+    padding-left: 20px;
+}
+
+.menu {
+    width: 280px;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 20px;
+    gap: 10px;
+}

@@ -1,11 +1,16 @@
 import { Link } from 'react-router-dom';
 import MODULE_ROUTES from './routes';
 
+import './app.css';
+
 function App() {
   return (
-    <div className="App">
-      <h1> List of Projects </h1>
-      <Link to={MODULE_ROUTES.accordion}>Accordion</Link>
+    <div className="app">
+      <h1 className="header"> List of Projects </h1>
+      <div className="menu">
+        <Link to={MODULE_ROUTES.accordion}>Accordion</Link>
+        <Link to={MODULE_ROUTES.randomColor}>Random Color</Link>
+      </div>
     </div>
   );
 }
