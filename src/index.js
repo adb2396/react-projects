@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Accordion from './modules/Accordion';
 import MODULE_ROUTES from './routes';
 import RandomColor from './modules/RandomColor/RadomColor';
+import StarRating from './modules/StarRating/StarRating';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.randomColor,
     element: <RandomColor />,
+  },
+  {
+    path: MODULE_ROUTES.starRating,
+    element: <StarRating />,
   },
 ]);
 
