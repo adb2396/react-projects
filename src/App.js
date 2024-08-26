@@ -11,6 +11,7 @@ function App() {
         <Link to={MODULE_ROUTES.accordion}>Accordion</Link>
         <Link to={MODULE_ROUTES.randomColor}>Random Color</Link>
         <Link to={MODULE_ROUTES.starRating}>Star Rating</Link>
+        <Link to={MODULE_ROUTES.imageSlider}>Image Slider</Link>
       </div>
     </div>
   );

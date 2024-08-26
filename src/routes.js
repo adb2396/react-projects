@@ -3,6 +3,7 @@ const MODULE_ROUTES = {
   accordion: '/accordion',
   randomColor: '/random-color',
   starRating: '/star-rating',
+  imageSlider: '/image-slider',
 };
 
 export default MODULE_ROUTES;

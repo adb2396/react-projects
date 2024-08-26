@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './App';
+import './index.css';
 import Accordion from './modules/Accordion';
-import MODULE_ROUTES from './routes';
+import ImageSlider from './modules/ImageSlider/ImageSlider';
 import RandomColor from './modules/RandomColor/RadomColor';
 import StarRating from './modules/StarRating/StarRating';
+import reportWebVitals from './reportWebVitals';
+import MODULE_ROUTES from './routes';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.starRating,
     element: <StarRating />,
+  },
+  {
+    path: MODULE_ROUTES.imageSlider,
+    element: <ImageSlider />,
   },
 ]);
 
