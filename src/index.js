@@ -5,6 +5,7 @@ import App from './App';
 import './index.css';
 import Accordion from './modules/Accordion';
 import ImageSlider from './modules/ImageSlider/ImageSlider';
+import ProductsLoader from './modules/ProductsLoader/ProductsLoader';
 import RandomColor from './modules/RandomColor/RadomColor';
 import StarRating from './modules/StarRating/StarRating';
 import reportWebVitals from './reportWebVitals';
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.imageSlider,
     element: <ImageSlider />,
+  },
+  {
+    path: MODULE_ROUTES.productsLoader,
+    element: <ProductsLoader />,
   },
 ]);
 

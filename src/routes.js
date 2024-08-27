@@ -4,6 +4,7 @@ const MODULE_ROUTES = {
   randomColor: '/random-color',
   starRating: '/star-rating',
   imageSlider: '/image-slider',
+  productsLoader: '/productsLoader',
 };
 
 export default MODULE_ROUTES;
