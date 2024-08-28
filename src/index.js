@@ -5,6 +5,7 @@ import App from './App';
 import './index.css';
 import Accordion from './modules/Accordion';
 import ImageSlider from './modules/ImageSlider/ImageSlider';
+import NestedMenu from './modules/NestedMenu/NestedMenu';
 import ProductsLoader from './modules/ProductsLoader/ProductsLoader';
 import RandomColor from './modules/RandomColor/RadomColor';
 import StarRating from './modules/StarRating/StarRating';
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.productsLoader,
     element: <ProductsLoader />,
+  },
+  {
+    path: MODULE_ROUTES.nestedMenu,
+    element: <NestedMenu />,
   },
 ]);
 

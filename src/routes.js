@@ -4,7 +4,8 @@ const MODULE_ROUTES = {
   randomColor: '/random-color',
   starRating: '/star-rating',
   imageSlider: '/image-slider',
-  productsLoader: '/productsLoader',
+  productsLoader: '/products-loader',
+  nestedMenu: '/nested-menu',
 };
 
 export default MODULE_ROUTES;

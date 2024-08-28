@@ -13,6 +13,7 @@ function App() {
         <Link to={MODULE_ROUTES.starRating}>Star Rating</Link>
         <Link to={MODULE_ROUTES.imageSlider}>Image Slider</Link>
         <Link to={MODULE_ROUTES.productsLoader}>Products Loader</Link>
+        <Link to={MODULE_ROUTES.nestedMenu}>Nested Menu</Link>
       </div>
     </div>
   );
