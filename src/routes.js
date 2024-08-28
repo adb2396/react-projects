@@ -7,6 +7,7 @@ const MODULE_ROUTES = {
   productsLoader: '/products-loader',
   nestedMenu: '/nested-menu',
   qrCode: '/qr-code',
+  lightDarkTheme: '/light-dark-theme',
 };
 
 export default MODULE_ROUTES;

@@ -5,6 +5,7 @@ import App from './App';
 import './index.css';
 import Accordion from './modules/Accordion';
 import ImageSlider from './modules/ImageSlider/ImageSlider';
+import LightDarkTheme from './modules/LightDarkTheme/LightDarkTheme';
 import NestedMenu from './modules/NestedMenu/NestedMenu';
 import ProductsLoader from './modules/ProductsLoader/ProductsLoader';
 import QRGenerator from './modules/QRGenerator/QRGenerator';
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.qrCode,
     element: <QRGenerator />,
+  },
+  {
+    path: MODULE_ROUTES.lightDarkTheme,
+    element: <LightDarkTheme />,
   },
 ]);
 
