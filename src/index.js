@@ -7,6 +7,7 @@ import Accordion from './modules/Accordion';
 import ImageSlider from './modules/ImageSlider/ImageSlider';
 import NestedMenu from './modules/NestedMenu/NestedMenu';
 import ProductsLoader from './modules/ProductsLoader/ProductsLoader';
+import QRGenerator from './modules/QRGenerator/QRGenerator';
 import RandomColor from './modules/RandomColor/RadomColor';
 import StarRating from './modules/StarRating/StarRating';
 import reportWebVitals from './reportWebVitals';
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.nestedMenu,
     element: <NestedMenu />,
+  },
+  {
+    path: MODULE_ROUTES.qrCode,
+    element: <QRGenerator />,
   },
 ]);
 

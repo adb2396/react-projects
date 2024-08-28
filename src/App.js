@@ -14,6 +14,7 @@ function App() {
         <Link to={MODULE_ROUTES.imageSlider}>Image Slider</Link>
         <Link to={MODULE_ROUTES.productsLoader}>Products Loader</Link>
         <Link to={MODULE_ROUTES.nestedMenu}>Nested Menu</Link>
+        <Link to={MODULE_ROUTES.qrCode}>QR Generator</Link>
       </div>
     </div>
   );

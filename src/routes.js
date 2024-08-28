@@ -6,6 +6,7 @@ const MODULE_ROUTES = {
   imageSlider: '/image-slider',
   productsLoader: '/products-loader',
   nestedMenu: '/nested-menu',
+  qrCode: '/qr-code',
 };
 
 export default MODULE_ROUTES;
