@@ -1,0 +1,58 @@
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: animatedModal;
+	animation-duration: 0.5s;
+}
+
+.modal {
+	width: 600px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+.modal-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: seagreen;
+	padding: 20px;
+}
+
+.modal-header > h3 {
+	margin: 0;
+}
+
+.close-icon {
+	cursor: pointer;
+}
+
+.modal-body {
+	padding: 40px 20px;
+}
+
+.modal-footer {
+	background-color: seagreen;
+	padding: 20px;
+}
+
+@keyframes animatedModal {
+	from {
+		top: -200px;
+		opacity: 0;
+	}
+
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}

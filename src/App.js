@@ -18,6 +18,7 @@ function App() {
 				<Link to={MODULE_ROUTES.lightDarkTheme}>LightDark Theme</Link>
 				<Link to={MODULE_ROUTES.scrollIndicator}>Scroll Indicator</Link>
 				<Link to={MODULE_ROUTES.tabs}>Tabs</Link>
+				<Link to={MODULE_ROUTES.modal}>Modal</Link>
 			</div>
 		</div>
 	)
