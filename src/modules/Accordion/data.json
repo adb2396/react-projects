@@ -1,22 +1,22 @@
 [
-  {
-    "id": 1,
-    "title": "What is an accordion?",
-    "content": "An accordion is a vertically stacked list of items that can be expanded to reveal more information. It is often used in user interfaces to reduce the need for scrolling and to organize content in a space-efficient manner."
-  },
-  {
-    "id": 2,
-    "title": "How does an accordion work?",
-    "content": "Each item in an accordion has a title that can be clicked to expand or collapse the content associated with it. When an item is expanded, the content is displayed, and when it is collapsed, the content is hidden."
-  },
-  {
-    "id": 3,
-    "title": "When should I use an accordion?",
-    "content": "Accordions are useful when you want to present large amounts of content in a small area. They are commonly used in FAQs, product descriptions, and settings menus where space is limited."
-  },
-  {
-    "id": 4,
-    "title": "Are accordions accessible?",
-    "content": "Yes, accordions can be made accessible by ensuring they are keyboard navigable, using appropriate ARIA roles and properties, and making sure that screen readers can interpret the structure correctly."
-  }
+	{
+		"id": 1,
+		"title": "What is an accordion?",
+		"content": "An accordion is a vertically stacked list of items that can be expanded to reveal more information. It is often used in user interfaces to reduce the need for scrolling and to organize content in a space-efficient manner."
+	},
+	{
+		"id": 2,
+		"title": "How does an accordion work?",
+		"content": "Each item in an accordion has a title that can be clicked to expand or collapse the content associated with it. When an item is expanded, the content is displayed, and when it is collapsed, the content is hidden."
+	},
+	{
+		"id": 3,
+		"title": "When should I use an accordion?",
+		"content": "Accordions are useful when you want to present large amounts of content in a small area. They are commonly used in FAQs, product descriptions, and settings menus where space is limited."
+	},
+	{
+		"id": 4,
+		"title": "Are accordions accessible?",
+		"content": "Yes, accordions can be made accessible by ensuring they are keyboard navigable, using appropriate ARIA roles and properties, and making sure that screen readers can interpret the structure correctly."
+	}
 ]

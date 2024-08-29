@@ -10,6 +10,6 @@ const MODULE_ROUTES = {
 	lightDarkTheme: '/light-dark-theme',
 	scrollIndicator: '/scroll-indicator',
 	tabs: '/tabs',
-};
+}
 
-export default MODULE_ROUTES;
+export default MODULE_ROUTES

@@ -1,11 +1,11 @@
-import React, { useEffect, useRef, useState } from "react"
-import { useGetProducts } from "./api"
+import React, { useEffect, useRef, useState } from 'react'
+import { useGetProducts } from './api'
 
-import "./styles.css"
+import './styles.css'
 
 export default function ScrollIndicator() {
 	// constants
-	const URL = "https://dummyjson.com/products?limit=100"
+	const URL = 'https://dummyjson.com/products?limit=100'
 
 	// ref
 	const scrollRef = useRef(null)
@@ -28,10 +28,10 @@ export default function ScrollIndicator() {
 
 	// useEffect
 	useEffect(() => {
-		window.addEventListener("scroll", handleScroll)
+		window.addEventListener('scroll', handleScroll)
 
 		return () => {
-			window.removeEventListener("scroll", handleScroll)
+			window.removeEventListener('scroll', handleScroll)
 		}
 	}, [])
 
@@ -44,7 +44,7 @@ export default function ScrollIndicator() {
 	return (
 		<div className="scroll-container" ref={scrollRef}>
 			<div className="scroller" style={{ width: `${scrolledFromTop}%` }} />
-			<h3 className="header">List of Products</h3>
+			<h3 className="scroll-header">List of Products</h3>
 			<div className="products">
 				{data.map(({ title }) => (
 					<p>{title}</p>

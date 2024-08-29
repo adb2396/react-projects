@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
-import MODULE_ROUTES from './routes';
+import { Link } from 'react-router-dom'
+import MODULE_ROUTES from './routes'
 
-import './app.css';
+import './app.css'
 
 function App() {
 	return (
-		<div className='app'>
-			<h1 className='header'> List of Projects </h1>
-			<div className='menu'>
+		<div className="app">
+			<h1 className="header"> List of Projects </h1>
+			<div className="menu">
 				<Link to={MODULE_ROUTES.accordion}>Accordion</Link>
 				<Link to={MODULE_ROUTES.randomColor}>Random Color</Link>
 				<Link to={MODULE_ROUTES.starRating}>Star Rating</Link>
@@ -20,7 +20,7 @@ function App() {
 				<Link to={MODULE_ROUTES.tabs}>Tabs</Link>
 			</div>
 		</div>
-	);
+	)
 }
 
-export default App;
+export default App

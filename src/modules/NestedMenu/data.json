@@ -1,87 +1,87 @@
 {
-  "menu": [
-    {
-      "title": "Home",
-      "icon": "home_icon",
-      "link": "/home"
-    },
-    {
-      "title": "Products",
-      "icon": "products_icon",
-      "link": "/products",
-      "subMenu": [
-        {
-          "title": "Electronics",
-          "link": "/products/electronics",
-          "subMenu": [
-            {
-              "title": "Mobile Phones",
-              "link": "/products/electronics/mobile-phones",
-              "subMenu": [
-                {
-                  "title": "iphone",
-                  "link": "/products/electronics/mobile-phones/iphone"
-                },
-                {
-                  "title": "motorola",
-                  "link": "/products/electronics/mobile-phones/motorola"
-                }
-              ]
-            },
-            {
-              "title": "Laptops",
-              "link": "/products/electronics/laptops"
-            },
-            {
-              "title": "Televisions",
-              "link": "/products/electronics/televisions"
-            }
-          ]
-        },
-        {
-          "title": "Apparel",
-          "link": "/products/apparel",
-          "subMenu": [
-            {
-              "title": "Men's Clothing",
-              "link": "/products/apparel/mens-clothing"
-            },
-            {
-              "title": "Women's Clothing",
-              "link": "/products/apparel/womens-clothing"
-            },
-            {
-              "title": "Accessories",
-              "link": "/products/apparel/accessories"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Services",
-      "icon": "services_icon",
-      "link": "/services",
-      "subMenu": [
-        {
-          "title": "Consulting",
-          "link": "/services/consulting"
-        },
-        {
-          "title": "Support",
-          "link": "/services/support"
-        }
-      ]
-    },
-    {
-      "title": "About Us",
-      "icon": "about_icon",
-      "link": "/about"
-    },
-    {
-      "title": "Contact",
-      "icon": "contact_icon",
-      "link": "/contact"
-    }
-  ]
+	"menu": [
+		{
+			"title": "Home",
+			"icon": "home_icon",
+			"link": "/home"
+		},
+		{
+			"title": "Products",
+			"icon": "products_icon",
+			"link": "/products",
+			"subMenu": [
+				{
+					"title": "Electronics",
+					"link": "/products/electronics",
+					"subMenu": [
+						{
+							"title": "Mobile Phones",
+							"link": "/products/electronics/mobile-phones",
+							"subMenu": [
+								{
+									"title": "iphone",
+									"link": "/products/electronics/mobile-phones/iphone"
+								},
+								{
+									"title": "motorola",
+									"link": "/products/electronics/mobile-phones/motorola"
+								}
+							]
+						},
+						{
+							"title": "Laptops",
+							"link": "/products/electronics/laptops"
+						},
+						{
+							"title": "Televisions",
+							"link": "/products/electronics/televisions"
+						}
+					]
+				},
+				{
+					"title": "Apparel",
+					"link": "/products/apparel",
+					"subMenu": [
+						{
+							"title": "Men's Clothing",
+							"link": "/products/apparel/mens-clothing"
+						},
+						{
+							"title": "Women's Clothing",
+							"link": "/products/apparel/womens-clothing"
+						},
+						{
+							"title": "Accessories",
+							"link": "/products/apparel/accessories"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Services",
+			"icon": "services_icon",
+			"link": "/services",
+			"subMenu": [
+				{
+					"title": "Consulting",
+					"link": "/services/consulting"
+				},
+				{
+					"title": "Support",
+					"link": "/services/support"
+				}
+			]
+		},
+		{
+			"title": "About Us",
+			"icon": "about_icon",
+			"link": "/about"
+		},
+		{
+			"title": "Contact",
+			"icon": "contact_icon",
+			"link": "/contact"
+		}
+	]
 }
