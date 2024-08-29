@@ -8,6 +8,7 @@ const MODULE_ROUTES = {
   nestedMenu: '/nested-menu',
   qrCode: '/qr-code',
   lightDarkTheme: '/light-dark-theme',
+  scrollIndicator: '/scroll-indicator',
 };
 
 export default MODULE_ROUTES;

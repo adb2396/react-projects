@@ -13,6 +13,7 @@ import RandomColor from './modules/RandomColor/RadomColor';
 import StarRating from './modules/StarRating/StarRating';
 import reportWebVitals from './reportWebVitals';
 import MODULE_ROUTES from './routes';
+import ScrollIndicator from './modules/ScrollIndicator/ScrollIndicator';
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: MODULE_ROUTES.lightDarkTheme,
     element: <LightDarkTheme />,
+  },
+  {
+    path: MODULE_ROUTES.scrollIndicator,
+    element: <ScrollIndicator />,
   },
 ]);
 

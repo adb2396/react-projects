@@ -16,6 +16,7 @@ function App() {
         <Link to={MODULE_ROUTES.nestedMenu}>Nested Menu</Link>
         <Link to={MODULE_ROUTES.qrCode}>QR Generator</Link>
         <Link to={MODULE_ROUTES.lightDarkTheme}>LightDark Theme</Link>
+        <Link to={MODULE_ROUTES.scrollIndicator}>Scroll Indicator</Link>
       </div>
     </div>
   );
