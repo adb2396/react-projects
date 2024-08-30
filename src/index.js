@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App'
 import './index.css'
 import Accordion from './modules/Accordion'
+import Autocomplete from './modules/Autocomplete/Autocomplete'
 import GithubProfileSearch from './modules/GithubProfileSearch/GithubProfileSearch'
 import ImageSlider from './modules/ImageSlider/ImageSlider'
 import LightDarkTheme from './modules/LightDarkTheme/LightDarkTheme'
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
 	{
 		path: MODULE_ROUTES.githubProfileSearch,
 		element: <GithubProfileSearch />,
+	},
+	{
+		path: MODULE_ROUTES.autocomplte,
+		element: <Autocomplete />,
 	},
 ])
 

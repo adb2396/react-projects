@@ -39,10 +39,15 @@ export default function GithubProfileSearch() {
 				<input
 					type="text"
 					value={userName}
+					className="profile-input"
 					placeholder="Enter username ex: adb2396"
 					onChange={handleUserNameChange}
 				/>
-				<button type="button" onClick={handleSendClick}>
+				<button
+					type="button"
+					onClick={handleSendClick}
+					className="profile-send-button"
+				>
 					Send
 				</button>
 			</div>

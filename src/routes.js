@@ -12,6 +12,7 @@ const MODULE_ROUTES = {
 	tabs: '/tabs',
 	modal: '/modal',
 	githubProfileSearch: '/github-profile-search',
+	autocomplte: '/autocomplete',
 }
 
 export default MODULE_ROUTES
