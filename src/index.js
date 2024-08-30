@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App'
 import './index.css'
 import Accordion from './modules/Accordion'
+import GithubProfileSearch from './modules/GithubProfileSearch/GithubProfileSearch'
 import ImageSlider from './modules/ImageSlider/ImageSlider'
 import LightDarkTheme from './modules/LightDarkTheme/LightDarkTheme'
 import ModalTest from './modules/Modal'
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
 	{
 		path: MODULE_ROUTES.modal,
 		element: <ModalTest />,
+	},
+	{
+		path: MODULE_ROUTES.githubProfileSearch,
+		element: <GithubProfileSearch />,
 	},
 ])
 

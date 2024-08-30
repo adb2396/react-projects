@@ -1,0 +1,54 @@
+.profile-search-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30px;
+	gap: 20px;
+}
+
+input[type='text'] {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 20px 25px;
+	font-size: 16px;
+}
+
+button[type='button'] {
+	border: none;
+	background-color: navy;
+	color: white;
+	font-weight: 600;
+	padding: 20px 25px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.profile-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 600px;
+	padding: 10px;
+	gap: 20px;
+}
+
+.profile-table {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.profile-table .row {
+	display: flex;
+	gap: 20px;
+}
+
+.row > div {
+	flex-basis: 50%;
+}
+
+.row > div:first-child {
+	text-align: end;
+}

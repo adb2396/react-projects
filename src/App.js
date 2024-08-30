@@ -19,6 +19,7 @@ function App() {
 				<Link to={MODULE_ROUTES.scrollIndicator}>Scroll Indicator</Link>
 				<Link to={MODULE_ROUTES.tabs}>Tabs</Link>
 				<Link to={MODULE_ROUTES.modal}>Modal</Link>
+				<Link to={MODULE_ROUTES.githubProfileSearch}>Github Profile</Link>
 			</div>
 		</div>
 	)

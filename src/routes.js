@@ -11,6 +11,7 @@ const MODULE_ROUTES = {
 	scrollIndicator: '/scroll-indicator',
 	tabs: '/tabs',
 	modal: '/modal',
+	githubProfileSearch: '/github-profile-search',
 }
 
 export default MODULE_ROUTES
