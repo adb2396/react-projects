@@ -13,6 +13,7 @@ const MODULE_ROUTES = {
 	modal: '/modal',
 	githubProfileSearch: '/github-profile-search',
 	autocomplte: '/autocomplete',
+	ticTacToe: '/tic-tac-toe',
 }
 
 export default MODULE_ROUTES

@@ -21,6 +21,7 @@ function App() {
 				<Link to={MODULE_ROUTES.modal}>Modal</Link>
 				<Link to={MODULE_ROUTES.githubProfileSearch}>Github Profile</Link>
 				<Link to={MODULE_ROUTES.autocomplte}>Autocomplete</Link>
+				<Link to={MODULE_ROUTES.ticTacToe}>Tic Tac Toe</Link>
 			</div>
 		</div>
 	)

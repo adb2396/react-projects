@@ -16,6 +16,7 @@ import RandomColor from './modules/RandomColor/RadomColor'
 import ScrollIndicator from './modules/ScrollIndicator/ScrollIndicator'
 import StarRating from './modules/StarRating/StarRating'
 import Tabs from './modules/Tabs/Tabs'
+import TicTacToe from './modules/TicTacToe/TicTacToe'
 import reportWebVitals from './reportWebVitals'
 import MODULE_ROUTES from './routes'
 
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
 	{
 		path: MODULE_ROUTES.autocomplte,
 		element: <Autocomplete />,
+	},
+	{
+		path: MODULE_ROUTES.ticTacToe,
+		element: <TicTacToe />,
 	},
 ])
 
