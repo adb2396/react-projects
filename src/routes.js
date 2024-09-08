@@ -16,6 +16,7 @@ const MODULE_ROUTES = {
 	ticTacToe: '/tic-tac-toe',
 	outsideClickHook: '/outside-click-hook',
 	scrollTopNBottom: '/scroll-top-bottom',
+	searchWeather: '/search-weather',
 }
 
 export default MODULE_ROUTES

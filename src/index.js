@@ -16,6 +16,7 @@ import QRGenerator from './modules/QRGenerator/QRGenerator'
 import RandomColor from './modules/RandomColor/RadomColor'
 import ScrollIndicator from './modules/ScrollIndicator/ScrollIndicator'
 import ScrollTopNBottom from './modules/ScrollTopNBottom/ScrollTopNBottom'
+import SearchWeather from './modules/SearchWeather/SearchWeather'
 import StarRating from './modules/StarRating/StarRating'
 import Tabs from './modules/Tabs/Tabs'
 import TicTacToe from './modules/TicTacToe/TicTacToe'
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
 	{
 		path: MODULE_ROUTES.scrollTopNBottom,
 		element: <ScrollTopNBottom />,
+	},
+	{
+		path: MODULE_ROUTES.searchWeather,
+		element: <SearchWeather />,
 	},
 ])
 

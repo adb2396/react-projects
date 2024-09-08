@@ -24,6 +24,7 @@ function App() {
 				<Link to={MODULE_ROUTES.ticTacToe}>Tic Tac Toe</Link>
 				<Link to={MODULE_ROUTES.outsideClickHook}>Outside Click Hook</Link>
 				<Link to={MODULE_ROUTES.scrollTopNBottom}>Scroll Top Bottom</Link>
+				<Link to={MODULE_ROUTES.searchWeather}>Search Weather</Link>
 			</div>
 		</div>
 	)

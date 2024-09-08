@@ -1,0 +1,51 @@
+.weather-search {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.weather-search .main {
+	margin-top: 50px;
+	background-color: lightcyan;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 6px 1px lightgray;
+}
+
+.search-container input {
+	width: 360px;
+	padding: 10px 15px;
+	border-radius: 0px;
+	border: 2px solid lightgray;
+}
+
+.search-container input:focus {
+	outline: none;
+}
+
+.search-container button {
+	padding: 12px;
+	background-color: navy;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+.report-container {
+	text-align: center;
+}
+
+.city-name {
+	color: darkred;
+}
+
+.report-container .speed-humidity {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+
+.speed-humidity h5 {
+	margin: 0;
+	margin-top: 5px;
+}
