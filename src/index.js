@@ -10,6 +10,7 @@ import ImageSlider from './modules/ImageSlider/ImageSlider'
 import LightDarkTheme from './modules/LightDarkTheme/LightDarkTheme'
 import ModalTest from './modules/Modal'
 import NestedMenu from './modules/NestedMenu/NestedMenu'
+import OutsideClickHook from './modules/OutsideClickHook/OutsideClickHook'
 import ProductsLoader from './modules/ProductsLoader/ProductsLoader'
 import QRGenerator from './modules/QRGenerator/QRGenerator'
 import RandomColor from './modules/RandomColor/RadomColor'
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
 	{
 		path: MODULE_ROUTES.ticTacToe,
 		element: <TicTacToe />,
+	},
+	{
+		path: MODULE_ROUTES.outsideClickHook,
+		element: <OutsideClickHook />,
 	},
 ])
 

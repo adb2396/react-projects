@@ -14,6 +14,7 @@ const MODULE_ROUTES = {
 	githubProfileSearch: '/github-profile-search',
 	autocomplte: '/autocomplete',
 	ticTacToe: '/tic-tac-toe',
+	outsideClickHook: '/outside-click-hook',
 }
 
 export default MODULE_ROUTES
