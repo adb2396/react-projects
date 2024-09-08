@@ -15,6 +15,7 @@ const MODULE_ROUTES = {
 	autocomplte: '/autocomplete',
 	ticTacToe: '/tic-tac-toe',
 	outsideClickHook: '/outside-click-hook',
+	scrollTopNBottom: '/scroll-top-bottom',
 }
 
 export default MODULE_ROUTES

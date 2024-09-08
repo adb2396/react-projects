@@ -15,6 +15,7 @@ import ProductsLoader from './modules/ProductsLoader/ProductsLoader'
 import QRGenerator from './modules/QRGenerator/QRGenerator'
 import RandomColor from './modules/RandomColor/RadomColor'
 import ScrollIndicator from './modules/ScrollIndicator/ScrollIndicator'
+import ScrollTopNBottom from './modules/ScrollTopNBottom/ScrollTopNBottom'
 import StarRating from './modules/StarRating/StarRating'
 import Tabs from './modules/Tabs/Tabs'
 import TicTacToe from './modules/TicTacToe/TicTacToe'
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
 	{
 		path: MODULE_ROUTES.outsideClickHook,
 		element: <OutsideClickHook />,
+	},
+	{
+		path: MODULE_ROUTES.scrollTopNBottom,
+		element: <ScrollTopNBottom />,
 	},
 ])
 
